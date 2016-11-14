@@ -1087,3 +1087,28 @@ you can use the generic selector below, but it's slower:
 .icon-ticket:before {
 	content: "\e15d";
 }
+.stacked-icons {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.stacked-icons-1x,
+.stacked-icons-2x,
+.stacked-icons-3x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.stacked-icons-1x {
+  line-height: inherit;
+}
+.stacked-icons-2x {
+  font-size: 1.5em;
+}
+.stacked-icons-3x {
+  font-size: 2em;
+}
